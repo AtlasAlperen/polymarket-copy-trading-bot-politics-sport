@@ -2,8 +2,6 @@
 
 Polymarket Copytrading Bot which copies trades from one or more leader addresses on Polymarket. Config in `trade.toml`, secrets in `.env`.
 
-## Journey of Builder - [xstacks](https://t.me/x_stacks)
-
 While many traders focus heavily on crypto prediction markets, I noticed that they can be extremely volatile and unpredictable in short timeframes. Rapid price swings, aggressive position flipping, and sudden liquidity shifts make consistent automation difficult.
 
 When I started looking at Polymarket, I noticed one thing right away: markets can be unpredictable. Crypto markets, in particular, move fast—prices swing, positions flip, and liquidity can change in an instant, making consistent automation really tricky.
@@ -30,8 +28,8 @@ Adjust filters like entry_trade_sec, trade_sec_from_resolve, take_profit, and bu
 ## Setup
 
 ```bash
-git clone https://github.com/dev-protocol/polymarket-copytrading-bot-sport.git
-cd polymarket-copytrading-bot-sport
+git clone https://github.com/AtlasAlperen/polymarket-copy-trading-bot-politics-sport
+cd polymarket-copy-trading-bot-politics-sport
 npm install
 # Edit .env: WALLET_PRIVATE_KEY, PROXY_WALLET_ADDRESS (if Magic), SIGNATURE_TYPE
 npm run dev

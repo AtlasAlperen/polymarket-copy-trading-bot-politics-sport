@@ -27,7 +27,7 @@
     "dotenv": "^16.4.5",
     "ethers": "^5.7.2",
     "puppeteer-core": "^24.37.3",
-    "ts-big-number": "^8.0.5",
+    "bignum-ts-v2": "^5.0.3",
     "ws": "^8.19.0",
     "zod": "^4.3.5"
   },

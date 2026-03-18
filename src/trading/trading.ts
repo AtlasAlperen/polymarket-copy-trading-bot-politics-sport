@@ -1,5 +1,5 @@
 import { ClobClient, OrderType, Side } from "@polymarket/clob-client";
-import { Big } from "ts-big-number";
+import { Big } from "bignum-ts-v2";
 import type { LeaderTrade, ActivityTradePayload } from "../types";
 
 export async function copyTrade(
